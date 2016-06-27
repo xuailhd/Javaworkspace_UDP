@@ -1,0 +1,103 @@
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="xugl.immediatelychat.activitys.MainActivity" >
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="0dp">
+
+	<LinearLayout
+	    android:id="@+id/chatLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">"
+	   	<!--  
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" >
+
+				<LinearLayout
+				    android:id="@+id/exmpleLinearLayout1"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical" >
+
+		   	    <ImageView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ic_launcher" />
+		   	    
+		   	    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/hello_world" />
+		   	    
+		   	    </LinearLayout>
+				 <TextView
+			        android:id="@+id/exmpleTextView1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:gravity="start"
+			        android:text="@string/hello_world" />
+				
+			
+			</LinearLayout>
+			<LinearLayout
+			    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="end"> "
+	   	    <TextView
+		        android:id="@+id/exmpleTextView2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:text="@string/hello_world" />
+		    
+			<LinearLayout
+			    android:id="@+id/exmpleLinearLayout2"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+
+	   	    <ImageView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        
+		        android:src="@drawable/ic_launcher" />
+	   	    
+	   	    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/hello_world" />
+
+			 </LinearLayout>
+			 </LinearLayout>
+			-->
+	</LinearLayout>
+
+</ScrollView>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+	<EditText 
+	    android:id="@+id/chatinput"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content" 
+	    android:layout_weight="1"
+	    android:textSize="15sp"/>
+	<Button
+	    android:id="@+id/button1"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="发送" />
+	</LinearLayout>"
+</LinearLayout>

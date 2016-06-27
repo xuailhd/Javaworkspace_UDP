@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="servererror">can not find out server.</string>
+    <string name="accountsame">accout repeated.</string>
+    <string name="servernoconnet">can not connected server.</string>
+    <string name="conneting">conneting server,pls wait.</string>
+</resources>
