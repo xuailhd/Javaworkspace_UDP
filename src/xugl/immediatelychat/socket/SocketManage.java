@@ -9,17 +9,14 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.Random;
 
+import xugl.immediatelychat.common.CommonVariables;
 import android.util.Log;
 
 public class SocketManage implements ISocketManage {
 	byte[] buffer = new byte[1024];
 	
 	private int port =0;
-	private DatagramSocket ds = null;
-	public SocketManage()
-	{
-	}
-	
+
 	@Override
 	public String sendMsgWithReceive(String ip, int port, String msg) {
 		// TODO Auto-generated method stub
@@ -30,7 +27,7 @@ public class SocketManage implements ISocketManage {
 			DatagramPacket dp;
 			dp = new DatagramPacket(tempbuffer, tempbuffer.length, 
 				InetAddress.getByName(ip), port);
-			ds.send(dp);
+			CommonVariables.getDatagramSocket().send(dp);
 			ds.setSoTimeout(5000);
 			dp = new DatagramPacket(buffer, buffer.length);
 			try
