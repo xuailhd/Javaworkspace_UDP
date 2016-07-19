@@ -1,13 +1,5 @@
 package xugl.immediatelychat.services;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.InetSocketAddress;
-import java.net.Socket;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -19,7 +11,6 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
-import android.util.Log;
 
 public class ReciveMsgService extends Service {
 
